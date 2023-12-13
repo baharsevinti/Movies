@@ -1,5 +1,5 @@
 import axios from "axios";
 export default axios.create({
-    baseURL:'https://raw.githubusercontent.com/fhsinchy/movieist/master/',
+    baseURL:'http://localhost:8080',
     headers:{'Access-Control-Allow-Origin': '*',}
 });
